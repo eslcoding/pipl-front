@@ -3,13 +3,12 @@
 const BASE_URL = '/api/test'
 const axios = require('axios')
 /*PROD*/
-// const domain = 'https://test102-monday-pipl.herokuapp.com'
+const domain = 'https://test102-monday-pipl.herokuapp.com'
 
 /*DEV*/
-const domain = 'http://localhost:3030'
+// const domain = 'http://localhost:3030'
 
 
-// const domain = 'https://test-monday-pipl.herokuapp.com'
 
 // saveToStorage(PREFIX_KEY, {})
 // function creatPrefixMap() {
