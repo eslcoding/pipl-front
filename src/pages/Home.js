@@ -52,6 +52,7 @@ class Home extends React.Component {
       columns = columns.filter(
         (col) => col.type === "color" || col.type === "text"
       );
+      console.log(`Home -> awaitmonday.listen -> columns`, columns);
       // columns = columns.filter(col => col.type === 'text') // new prod - yuval
       this.setState({ columns });
     });
